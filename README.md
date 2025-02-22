@@ -17,3 +17,24 @@ Additionally, detailed setup instructions are provided to guide you through the 
 - [ ] Include custom overlays
 - [ ] Add stream alerts
 - [ ] Document setup instructions
+
+ - Scenes To Do
+
+- [ ]	StartingSoon	
+- [ ]	StartingSoonVid	
+- [ ]	CastersFull	
+- [ ]	CastersFullInterview	
+- [x]   CasterGraphics
+- [x]   SponsorRotator
+- [x]   CollegeSponsors
+- [ ]	Break	
+- [ ]	BreakVid	
+- [ ]	ChampSelectLoL	
+- [ ]	LoLGame	
+- [ ]	MinecraftGame	
+- [ ]	FortniteGame	
+- [ ]	SSBUGame	
+- [ ]	ValorantGame	
+- [ ]	Game	RL
+- [ ]	Ending	RL
+- [ ]	Replay	RL
