@@ -18,10 +18,15 @@ Additionally, detailed setup instructions are provided to guide you through the 
 - [ ] Add stream alerts
 - [ ] Document setup instructions
 
+ - Scenes To Do
+
 - [ ]	StartingSoon	
 - [ ]	StartingSoonVid	
 - [ ]	CastersFull	
 - [ ]	CastersFullInterview	
+- [x]   CasterGraphics
+- [x]   SponsorRotator
+- [x]   CollegeSponsors
 - [ ]	Break	
 - [ ]	BreakVid	
 - [ ]	ChampSelectLoL	
