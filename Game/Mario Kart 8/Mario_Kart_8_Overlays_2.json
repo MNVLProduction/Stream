@@ -1,6 +1,6 @@
 {
-    "current_scene": "Blue Team Cam",
-    "current_program_scene": "Blue Team Cam",
+    "current_scene": "Both Team Cam",
+    "current_program_scene": "Both Team Cam",
     "scene_order": [
         {
             "name": "Both Team Cam"
@@ -462,7 +462,7 @@
                         }
                     },
                     {
-                        "name": "MK8GameNumber",
+                        "name": "GameNumber",
                         "source_uuid": "d8ce665d-79c5-40da-9c77-cef80dd1fecb",
                         "visible": true,
                         "locked": false,
@@ -565,7 +565,7 @@
                 "custom_size": false,
                 "items": [
                     {
-                        "name": "MK8BlueTeam (VDO.Ninja)",
+                        "name": "MK8Team2 (VDO.Ninja)",
                         "source_uuid": "59745d00-ecbb-433a-b952-84745b407fee",
                         "visible": true,
                         "locked": false,
@@ -620,7 +620,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "MK8BlueTeam (SRT)",
+                        "name": "MK8Team2 (SRT)",
                         "source_uuid": "bfd2b072-729f-41fc-929b-460ba01b4d93",
                         "visible": true,
                         "locked": false,
@@ -785,7 +785,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "MK8BlueTeamWins",
+                        "name": "Team2Score",
                         "source_uuid": "01fb7f9e-dfab-4596-9c89-53377a546c1a",
                         "visible": true,
                         "locked": false,
@@ -843,7 +843,7 @@
                         }
                     },
                     {
-                        "name": "MK8BlueTeamName",
+                        "name": "Team1Name",
                         "source_uuid": "42ef74c8-9a13-40db-b058-07558321199d",
                         "visible": true,
                         "locked": false,
@@ -1586,7 +1586,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "MK8RedTeamCam (VDO.Ninja)",
+                        "name": "MK8Team1 (VDO.Ninja)",
                         "source_uuid": "51ab52a2-0438-4c2b-acab-6f955f965e06",
                         "visible": true,
                         "locked": false,
@@ -1641,7 +1641,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "MK8BlueTeam (VDO.Ninja)",
+                        "name": "MK8Team2 (VDO.Ninja)",
                         "source_uuid": "59745d00-ecbb-433a-b952-84745b407fee",
                         "visible": true,
                         "locked": false,
@@ -1696,7 +1696,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "MK8RedTeamName",
+                        "name": "Team2Name",
                         "source_uuid": "62cb7ce1-10d2-484d-b4b1-088e1e89b03d",
                         "visible": true,
                         "locked": false,
@@ -1749,12 +1749,12 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "color-preset": 6,
-                            "color": ""
+                            "color": "",
+                            "color-preset": 6
                         }
                     },
                     {
-                        "name": "MK8BlueTeamWins",
+                        "name": "Team2Score",
                         "source_uuid": "01fb7f9e-dfab-4596-9c89-53377a546c1a",
                         "visible": true,
                         "locked": false,
@@ -1807,12 +1807,12 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "color-preset": 6,
-                            "color": ""
+                            "color": "",
+                            "color-preset": 6
                         }
                     },
                     {
-                        "name": "MK8BlueTeamName",
+                        "name": "Team1Name",
                         "source_uuid": "42ef74c8-9a13-40db-b058-07558321199d",
                         "visible": true,
                         "locked": false,
@@ -1865,12 +1865,12 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "color-preset": 2,
-                            "color": ""
+                            "color": "",
+                            "color-preset": 2
                         }
                     },
                     {
-                        "name": "MK8RedTeamWins",
+                        "name": "Team1Score",
                         "source_uuid": "a2ee1600-deaf-4cc1-9cc1-1c74c15faf9c",
                         "visible": true,
                         "locked": false,
@@ -1923,12 +1923,12 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "color-preset": 2,
-                            "color": ""
+                            "color": "",
+                            "color-preset": 2
                         }
                     },
                     {
-                        "name": "MK8GameNumber",
+                        "name": "GameNumber",
                         "source_uuid": "d8ce665d-79c5-40da-9c77-cef80dd1fecb",
                         "visible": true,
                         "locked": false,
@@ -1981,8 +1981,8 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "color-preset": 4,
-                            "color": ""
+                            "color": "",
+                            "color-preset": 4
                         }
                     }
                 ]
@@ -2132,152 +2132,7 @@
         },
         {
             "prev_ver": 520093697,
-            "name": "MK8BlueTeam (SRT)",
-            "uuid": "bfd2b072-729f-41fc-929b-460ba01b4d93",
-            "id": "ffmpeg_source",
-            "versioned_id": "ffmpeg_source",
-            "settings": {
-                "input_format": "mpegts",
-                "input": "srt://127.0.0.1:5000?mode=listener",
-                "is_local_file": false,
-                "restart_on_activate": false
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "MediaSource.Restart": [],
-                "MediaSource.Play": [],
-                "MediaSource.Pause": [],
-                "MediaSource.Stop": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093697,
-            "name": "MK8BlueTeam (VDO.Ninja)",
-            "uuid": "59745d00-ecbb-433a-b952-84745b407fee",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "width": 1920,
-                "height": 1080,
-                "reroute_audio": true
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093697,
-            "name": "MK8BlueTeamName",
-            "uuid": "42ef74c8-9a13-40db-b058-07558321199d",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "extents": true,
-                "text": "Blue School Name",
-                "font": {
-                    "face": "DM Sans 14pt",
-                    "style": "14pt",
-                    "size": 256,
-                    "flags": 0
-                },
-                "align": "center",
-                "valign": "top",
-                "color": 4279439879,
-                "bk_color": 4279439879,
-                "extents_cx": 2000,
-                "extents_cy": 250
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093697,
-            "name": "MK8BlueTeamWins",
-            "uuid": "01fb7f9e-dfab-4596-9c89-53377a546c1a",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
-            "settings": {
-                "text": "0",
-                "font": {
-                    "face": "DM Sans 14pt",
-                    "style": "14pt Bold",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4279439879,
-                "bk_color": 4279439879
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093697,
-            "name": "MK8GameNumber",
+            "name": "GameNumber",
             "uuid": "d8ce665d-79c5-40da-9c77-cef80dd1fecb",
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
@@ -2316,7 +2171,7 @@
         },
         {
             "prev_ver": 520093697,
-            "name": "MK8RedTeamCam (SRT)",
+            "name": "MK8Team1 (SRT)",
             "uuid": "0e2e20ed-3762-4f45-9632-b5bfc325289e",
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
@@ -2353,7 +2208,7 @@
         },
         {
             "prev_ver": 520093697,
-            "name": "MK8RedTeamCam (VDO.Ninja)",
+            "name": "MK8Team1 (VDO.Ninja)",
             "uuid": "51ab52a2-0438-4c2b-acab-6f955f965e06",
             "id": "browser_source",
             "versioned_id": "browser_source",
@@ -2387,27 +2242,17 @@
         },
         {
             "prev_ver": 520093697,
-            "name": "MK8RedTeamName",
-            "uuid": "62cb7ce1-10d2-484d-b4b1-088e1e89b03d",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
+            "name": "MK8Team2 (SRT)",
+            "uuid": "bfd2b072-729f-41fc-929b-460ba01b4d93",
+            "id": "ffmpeg_source",
+            "versioned_id": "ffmpeg_source",
             "settings": {
-                "extents": true,
-                "text": "Red School Name",
-                "font": {
-                    "face": "DM Sans 14pt",
-                    "style": "14pt",
-                    "size": 256,
-                    "flags": 0
-                },
-                "align": "center",
-                "valign": "top",
-                "color": 4279439879,
-                "bk_color": 4279439879,
-                "extents_cx": 2000,
-                "extents_cy": 250
+                "input_format": "mpegts",
+                "input": "srt://127.0.0.1:5000?mode=listener",
+                "is_local_file": false,
+                "restart_on_activate": false
             },
-            "mixers": 0,
+            "mixers": 255,
             "sync": 0,
             "flags": 0,
             "volume": 1.0,
@@ -2418,7 +2263,16 @@
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
-            "hotkeys": {},
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Play": [],
+                "MediaSource.Pause": [],
+                "MediaSource.Stop": []
+            },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -2426,22 +2280,16 @@
         },
         {
             "prev_ver": 520093697,
-            "name": "MK8RedTeamWins",
-            "uuid": "a2ee1600-deaf-4cc1-9cc1-1c74c15faf9c",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
+            "name": "MK8Team2 (VDO.Ninja)",
+            "uuid": "59745d00-ecbb-433a-b952-84745b407fee",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
             "settings": {
-                "text": "0",
-                "font": {
-                    "face": "DM Sans 14pt",
-                    "style": "14pt Bold",
-                    "size": 256,
-                    "flags": 1
-                },
-                "color": 4279439879,
-                "bk_color": 4279439879
+                "width": 1920,
+                "height": 1080,
+                "reroute_audio": true
             },
-            "mixers": 0,
+            "mixers": 255,
             "sync": 0,
             "flags": 0,
             "volume": 1.0,
@@ -2452,7 +2300,13 @@
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
-            "hotkeys": {},
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -2941,7 +2795,7 @@
                         }
                     },
                     {
-                        "name": "MK8GameNumber",
+                        "name": "GameNumber",
                         "source_uuid": "d8ce665d-79c5-40da-9c77-cef80dd1fecb",
                         "visible": true,
                         "locked": false,
@@ -3044,7 +2898,7 @@
                 "custom_size": false,
                 "items": [
                     {
-                        "name": "MK8RedTeamCam (VDO.Ninja)",
+                        "name": "MK8Team1 (VDO.Ninja)",
                         "source_uuid": "51ab52a2-0438-4c2b-acab-6f955f965e06",
                         "visible": true,
                         "locked": false,
@@ -3099,7 +2953,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "MK8RedTeamCam (SRT)",
+                        "name": "MK8Team1 (SRT)",
                         "source_uuid": "0e2e20ed-3762-4f45-9632-b5bfc325289e",
                         "visible": true,
                         "locked": false,
@@ -3264,7 +3118,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "MK8RedTeamWins",
+                        "name": "Team1Score",
                         "source_uuid": "a2ee1600-deaf-4cc1-9cc1-1c74c15faf9c",
                         "visible": true,
                         "locked": false,
@@ -3322,7 +3176,7 @@
                         }
                     },
                     {
-                        "name": "MK8RedTeamName",
+                        "name": "Team2Name",
                         "source_uuid": "62cb7ce1-10d2-484d-b4b1-088e1e89b03d",
                         "visible": true,
                         "locked": false,
@@ -3758,6 +3612,152 @@
                 "SlideShow.NextSlide": [],
                 "SlideShow.PreviousSlide": []
             },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093697,
+            "name": "Team1Name",
+            "uuid": "42ef74c8-9a13-40db-b058-07558321199d",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "extents": true,
+                "text": "Blue School Name",
+                "font": {
+                    "face": "DM Sans 14pt",
+                    "style": "14pt",
+                    "size": 256,
+                    "flags": 0
+                },
+                "align": "center",
+                "valign": "top",
+                "color": 4279439879,
+                "bk_color": 4279439879,
+                "extents_cx": 2000,
+                "extents_cy": 250
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093697,
+            "name": "Team1Score",
+            "uuid": "a2ee1600-deaf-4cc1-9cc1-1c74c15faf9c",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "text": "0",
+                "font": {
+                    "face": "DM Sans 14pt",
+                    "style": "14pt Bold",
+                    "size": 256,
+                    "flags": 1
+                },
+                "color": 4279439879,
+                "bk_color": 4279439879
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093697,
+            "name": "Team2Name",
+            "uuid": "62cb7ce1-10d2-484d-b4b1-088e1e89b03d",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "extents": true,
+                "text": "Red School Name",
+                "font": {
+                    "face": "DM Sans 14pt",
+                    "style": "14pt",
+                    "size": 256,
+                    "flags": 0
+                },
+                "align": "center",
+                "valign": "top",
+                "color": 4279439879,
+                "bk_color": 4279439879,
+                "extents_cx": 2000,
+                "extents_cy": 250
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093697,
+            "name": "Team2Score",
+            "uuid": "01fb7f9e-dfab-4596-9c89-53377a546c1a",
+            "id": "text_gdiplus",
+            "versioned_id": "text_gdiplus_v3",
+            "settings": {
+                "text": "0",
+                "font": {
+                    "face": "DM Sans 14pt",
+                    "style": "14pt Bold",
+                    "size": 256,
+                    "flags": 1
+                },
+                "color": 4279439879,
+                "bk_color": 4279439879
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
