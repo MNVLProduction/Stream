@@ -28,6 +28,7 @@ Additionally, detailed setup instructions are provided to guide you through the 
 - [x]	BreakVid	
 - [ ]	ChampSelectLoL	
 - [ ]	LoLGame	
+- [ ]   MK8
 - [x]	MinecraftGame	
 - [x]	FortniteGame	
 - [x]	SSBUGame	
@@ -35,7 +36,7 @@ Additionally, detailed setup instructions are provided to guide you through the 
 - [x]	Game	RL
 - [x]	Ending	RL
 - [x]	Replay	RL
-- [ ]   Ending
+- [x]   Ending
 
 
 
