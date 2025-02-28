@@ -12,16 +12,13 @@ Additionally, detailed setup instructions are provided to guide you through the 
 
 ## TODO
 
-- [ ] Casters
-- [ ] Add OBS profile settings
-- [ ] Include custom overlays
-- [ ] Add stream alerts
-- [ ] Document setup instructions
+- [x] Casters
+- [x] Add OBS profile settings
 
  - Scenes To Do
 
-- [ ]	StartingSoon	
-- [ ]	StartingSoonVid	
+- [x]	Starting
+- [x]	StartingVid	
 - [x]	CastersFull	
 - [x]	CastersFullInterview	
 - [x]   CasterGraphics
@@ -35,11 +32,13 @@ Additionally, detailed setup instructions are provided to guide you through the 
 - [x]	FortniteGame	
 - [x]	SSBUGame	
 - [x]	ValorantGame	
-- [ ]	Game	RL
-- [ ]	Ending	RL
-- [ ]	Replay	RL
+- [x]	Game	RL
+- [x]	Ending	RL
+- [x]	Replay	RL
 
 
 
 
 Made possible from undeniably diary and viewers like you, thank you.
+
+They dont even sponsor us anymore tho :(
