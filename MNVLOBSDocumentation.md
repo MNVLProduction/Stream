@@ -62,35 +62,40 @@ This section refers to all the necessary changes in the OBS Settings menu, acces
 
 ### Stream
 
-| Service | Restream.io |
+| Setting | Value |
 | :---- | :---- |
+| Service | Restream.io |
 
 ### Output
 
-| Output Mode | Advanced |
+| Setting | Value |
 | :---- | :---- |
+| Output Mode | Advanced |
 | Video Encoder | NVIDIA NVENC H.264 or AMD |
 | Rescale Output | Disabled |
 | Bitrate | 4000 Kbps \- 8000 Kbps |
 
 ### Audio
 
-| Desktop Audio | Disabled |
+| Setting | Value |
 | :---- | :---- |
+| Desktop Audio | Disabled |
 | Mic/Aux Audio | Disabled |
 | Monitoring Device | YOUR HEADPHONES |
 
 ### Video
 
-| Base Resolution | 1920x1080 |
+| Setting | Value |
 | :---- | :---- |
+| Base Resolution | 1920x1080 |
 | Output Resolution | 1920x1080 |
 | Common FPS Values | 59.94 \- 60 |
 
 ### Advanced
 
-| Stream Delay | Enable \- Disable |
+| Setting | Value |
 | :---- | :---- |
+| Stream Delay | Enable \- Disable |
 | Duration | 90s-180s |
 
 ## Tools
@@ -99,8 +104,9 @@ This section refers to all the configuration necessary under the Tools button in
 
 ### Websocket Server Settings
 
-| Enable WebSocket Server | Enabled |
+| Setting | Value |
 | :---- | :---- |
+| Enable WebSocket Server | Enabled |
 | Server Port | 4455 |
 | Server Password\* | obswsserver |
 
