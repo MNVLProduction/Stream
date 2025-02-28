@@ -22,19 +22,24 @@ Additionally, detailed setup instructions are provided to guide you through the 
 
 - [ ]	StartingSoon	
 - [ ]	StartingSoonVid	
-- [ ]	CastersFull	
-- [ ]	CastersFullInterview	
+- [x]	CastersFull	
+- [x]	CastersFullInterview	
 - [x]   CasterGraphics
 - [x]   SponsorRotator
 - [x]   CollegeSponsors
-- [ ]	Break	
-- [ ]	BreakVid	
+- [x]	Break	
+- [x]	BreakVid	
 - [ ]	ChampSelectLoL	
 - [ ]	LoLGame	
-- [ ]	MinecraftGame	
-- [ ]	FortniteGame	
-- [ ]	SSBUGame	
-- [ ]	ValorantGame	
+- [x]	MinecraftGame	
+- [x]	FortniteGame	
+- [x]	SSBUGame	
+- [x]	ValorantGame	
 - [ ]	Game	RL
 - [ ]	Ending	RL
 - [ ]	Replay	RL
+
+
+
+
+Made possible from undeniably diary and viewers like you, thank you.
